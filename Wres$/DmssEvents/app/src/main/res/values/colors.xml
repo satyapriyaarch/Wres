@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkpink">#ed36a4</color>
+
+    <color name="googleRed">#d34836</color>
+    <color name="fbBlue">#3b5998</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="dmsOrange">#E5821E</color>
+    <color name="transparent">#90000000</color>
+    <color name="greyDark">#575757</color>
+    <color name="greyLight">#ebebeb</color>
+    <color name="greyMedium">#b0b0b0</color>
+    <color name="cyan">#E0FFFF</color>
+    <color name="cyanDark">#00bfff</color>
+    <color name="pinkLight">#ffb2b2</color>
+    <color name="maroon">#990000</color>
+
+    <color name="warning_color">#f4511e</color>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+    <color name="greenStart">#ff33dd44</color>
+    <color name="greenMid">#ff1da130</color>
+    <color name="greenEnd">#ff0A8815</color>
+    <color name="dark_grey">#575757</color>
+    <color name="yellow">#ffff00</color>
+    <color name="red">#b20000</color>
+    <color name="green">#009900</color>
+    <color name="grey">#bdbdbd</color>
+    <color name="cyan1">#fff87f</color>
+    <color name="golden">#1D1503</color>
+    <color name="golden1">#f0ca43</color>
+
+</resources>

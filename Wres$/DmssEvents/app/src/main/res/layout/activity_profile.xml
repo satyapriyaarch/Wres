@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.dmss.dmss.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/profilepic"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/addProfilePicImageView"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:padding="5dp"
+                    android:src="@drawable/add_picture" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/userNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Employee Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/editext_grey_border"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/dark_grey"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:padding="2dp"
+                            android:src="@drawable/idcard" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textViewEmployeeId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:singleLine="true"
+                        android:text="Employee ID"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editext_grey_border"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/dark_grey"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:padding="2dp"
+                            android:src="@drawable/email" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/userEmailTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="Email ID"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editext_grey_border"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/dark_grey"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:padding="2dp"
+                            android:src="@drawable/suitcase" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/userDepartmentTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="Department"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editext_grey_border"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/dark_grey"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:padding="2dp"
+                            android:src="@drawable/user" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/userRoleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="Jr Associate Architectural Visualizer"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editext_grey_border"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/dark_grey"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:padding="2dp"
+                            android:src="@drawable/phone" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/userPhoneTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:singleLine="true"
+                        android:text="Mobile Number"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/overViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="@color/black" />
+
+        <ImageView
+            android:id="@+id/overViewClose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:src="@drawable/close_picture" />
+
+        <com.dmss.dmssevents.common.TouchImageView
+            android:id="@+id/profilePictureOverViewImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="30dp"
+            android:adjustViewBounds="true"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

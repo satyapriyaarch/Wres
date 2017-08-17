@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewAlbumName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="MyAlbum"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/editImageView"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:src="@drawable/editbutton"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/greyLight">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/imageViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/greyLight" />
+
+        <TextView
+            android:id="@+id/noImagesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:textSize="18sp"
+            android:text="No images to display \n Add images"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:background="@color/white"
+        android:scrollbars="none" />
+
+    <!--  Recycler View  -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shareImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:padding="12dp"
+            android:src="@drawable/sharebutton" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greyLight" />
+
+
+        <ImageView
+            android:id="@+id/addImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:background="@color/black"
+            android:src="@drawable/addbutton" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greyLight" />
+
+
+        <ImageView
+            android:id="@+id/deleteImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:background="@color/black"
+            android:src="@drawable/deletebutton" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

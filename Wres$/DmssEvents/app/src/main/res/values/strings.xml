@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Dmss Events</string>
+    <string name="enter_email">Enter Email Id</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="email_address_ext">\@dmss.co.in</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+   <!-- <string name="award_descrip">MileStone 2017 Award winner's List\n will be displayed after completion of event ...15th April onwards</string>-->
+
+    <string name="dmsSharedEventsPreference">DmsSharedEventsPreference</string>
+    <string name="pref_userDetails">UserDetails</string>
+    <string name="loading">Loading...</string>
+    <string name="pref_userLoggedIn">UserLoggedIn</string>
+    <string name="pref_lastLoggedInId">lastLoggedInId</string>
+    <string name="pref_profilePicUrl">ProfilePicUrl</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="digitalminds">Digitalminds</string>
+    <string name="login_welcome_text">Welcome Back,</string>
+    <string name="login_welcome_text1">Sign in to continue</string>
+
+    <string-array name="Title">
+        <item>Bus Start From Office</item>
+        <item>Welcome Drink</item>
+        <item>Welcome Speech</item>
+        <item>Mile Stone awards and Events</item>
+        <item>Lunch Time</item>
+        <item>Break Time</item>
+        <item>Dinner BreakFast</item>
+        <item>Fun Time</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="Time">
+        <item>14th April 9:30 am</item>
+        <item>14th April 10:15 am</item>
+        <item>14th April 11:00 am</item>
+        <item>14th April 11:15 am</item>
+        <item>14th April 1:00 pm</item>
+        <item>14th April 2:00 pm</item>
+        <item>14th April 8:00 pm</item>
+        <item>14th April 8:30 pm</item>
+        <item>14th April 10:00 pm</item>
+    </string-array>
+    <integer-array name="Image">
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+        <item>@drawable/time</item>
+    </integer-array>
+</resources>
